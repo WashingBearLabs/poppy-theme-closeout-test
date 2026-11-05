@@ -1,7 +1,7 @@
 kind: theme
 id: closeout-test
 name: Closeout Test
-version: 0.1.0
+version: 0.1.1
 author: WashingBearLabs
 description: The stock Poppy look — dark glass, cyan accents, ambient circuit grid.
 color_scheme: dark
@@ -17,6 +17,9 @@ tokens:
   color-control-track:
     $type: color
     $value: '#3a5478'
+  radius-md:
+    $type: dimension
+    $value: 10px
   blur-panel:
     $type: dimension
     $value: 16px
