@@ -1,0 +1,48 @@
+kind: theme
+id: closeout-test
+name: Closeout Test
+version: 0.1.0
+author: WashingBearLabs
+description: The stock Poppy look — dark glass, cyan accents, ambient circuit grid.
+color_scheme: dark
+stylesheet: theme.css
+preview: preview.png
+tokens:
+  color-dim:
+    $type: color
+    $value: '#8090ab'
+  color-control-knob:
+    $type: color
+    $value: '#e8edf4'
+  color-control-track:
+    $type: color
+    $value: '#3a5478'
+  blur-panel:
+    $type: dimension
+    $value: 16px
+  blur-overlay:
+    $type: dimension
+    $value: 8px
+  shadow-panel:
+    $type: shadow
+    $value: 0 0 20px color-mix(in oklab, var(--poppy-color-cyan) 3%, transparent), 0 0 1px color-mix(in
+      oklab, var(--poppy-color-cyan) 8%, transparent), inset 0 1px 0 color-mix(in oklab, var(--poppy-color-bright)
+      3%, transparent)
+  shadow-panel-hover:
+    $type: shadow
+    $value: 0 0 40px color-mix(in oklab, var(--poppy-color-cyan) 8%, transparent), 0 0 1px color-mix(in
+      oklab, var(--poppy-color-cyan) 12%, transparent), inset 0 0 30px color-mix(in oklab, var(--poppy-color-cyan)
+      2%, transparent), inset 0 1px 0 color-mix(in oklab, var(--poppy-color-bright) 4%, transparent)
+  shadow-glow-sm:
+    $type: shadow
+    $value: 0 0 10px color-mix(in oklab, var(--poppy-color-cyan) 12%, transparent), inset 0 0 10px color-mix(in
+      oklab, var(--poppy-color-cyan) 4%, transparent)
+  shadow-glow-md:
+    $type: shadow
+    $value: 0 0 20px color-mix(in oklab, var(--poppy-color-cyan) 25%, transparent), 0 0 4px color-mix(in
+      oklab, var(--poppy-color-cyan) 15%, transparent), inset 0 0 12px color-mix(in oklab, var(--poppy-color-cyan)
+      6%, transparent)
+  shadow-glow-lg:
+    $type: shadow
+    $value: 0 0 30px color-mix(in oklab, var(--poppy-color-cyan) 6%, transparent), 0 0 2px color-mix(in
+      oklab, var(--poppy-color-cyan) 12%, transparent)
